@@ -1,0 +1,426 @@
+html, body {
+	background-color : #000;
+	color : #FFF;
+	font-family : Arial, Verdana;
+	font : 1em;
+	width : 100%;
+	height : 100%;
+	padding : 0;
+	margin : 0;
+	top : 0;
+}
+
+content .wrapper {
+	position : relative;
+	left : 0px;
+	top : 0px;
+	display : block;
+	width : 100%;
+	Height : 100%;
+}
+p .error {
+	color : red;
+}
+a {
+	color : #DAA520;
+}
+a:hover {
+	color : #FFF;
+}
+a:visited {
+	color : #808080;
+}
+nav {
+	display : block;
+	position : fixed;
+	top : 0px;
+	width : 100%;
+	height : 45px;
+	background-color : #000;
+	border-bottom : 5px solid #DAA520;
+}
+
+#menu {
+	position : fixed;
+	display : block;
+	right : 10px;
+	top : 0px;
+	width : 55px;
+	height : 40px;
+	margin : 3px;
+	background-color : #000;
+	color : #DAA520;
+	font-weight : bold;
+	border : none;
+	text-align : center;
+	float : right;
+}
+
+/*Once Logged in*/
+h3 .welcome #welcome {
+}
+
+div .user_welcome{
+	display : block;
+	right : 0px;
+	width: auto;
+	height : auto;
+	top : 0px;
+	padding : 3px;
+	margin : 3px;
+}
+
+#page_title{
+	position : relative;
+	display : block;
+	text-align : center;
+	font-size : 60px;
+	margin : 20px;
+	color : #DAA520;
+}
+
+header {
+	position : relative;
+	display : block;
+	background-color : #808080;
+	border : 2px dotted #DAA520;
+	border-top : none;
+	border-bottom-right-radius : 20px;
+	border-bottom-left-radius : 20px;
+	width : 100%;
+	Height : 20%;
+	padding-top : 5%;
+	margin-top : 50px;
+	margin-bottom : 15px;
+}
+
+div .sign {
+	/*signin and register*/
+	position : fixed;
+	top : 0px;
+	float : right;
+	display : block;
+	width : 180px;
+	height : 40px;
+}
+
+#user_info {
+	position : fixed;
+	right : 0px;
+	top : 0px;
+	bottom : 0px;
+	visibility : hidden;
+	width : 0%;
+	background-color: #000;
+	color : #FFF;
+	padding-left : 15px;
+	padding-top : 20px;
+	padding-bottom : 20px;
+	margin-left : 1px;
+	border-left : 2px dotted #DAA520;
+	text-align : center;
+	transition : 0.3s;
+}
+
+#guest {
+	position : relative;
+	display : block-inline;
+	left : 0px;
+	width : 20%;
+	height : auto;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+#guestlinks:a{
+	position : relative;
+	float : left;
+}
+
+#profile {
+	position : absolute;
+	display : block;
+	top : 50px;
+	width : 100%;
+	height : 30px;
+	text-align : center;
+	background-color : #000;
+	color : #DAA520;
+	font-weight : bold;
+	border-top : 1px solid #DAA520;
+	border-bottom : 1px solid #DAA520;
+	border-left : none;
+	border-right : none;
+}
+
+#user_profile {
+	position : absolute;
+	visibility : hidden;
+	width : 100%;
+	height : 0%;
+	top : 60px;
+	text-align : left;
+	transition : 0.3s;
+	background-color : #000;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+#sidelinks {
+	position : relative;
+	float : left;
+	width : 20%;
+	height : 20%;
+	top : 0px;
+}
+#sidelinks:a {
+float : left;}
+
+#settings {
+	position : relative;
+	display : block;
+	top : 60px;
+	width : 100%;
+	height : 30px;
+	text-align : center;
+	margin : 10px;
+	background-color : #000;
+	color : #DAA520;
+	font-weight : bold;
+	border-top : 1px solid #DAA520;
+	border-bottom : 1px solid #DAA520;
+	border-left : none;
+	border-right : none;
+}
+
+#user_settings {
+	position : relative;
+	visibility : hidden;
+	top : 40px;
+	width : 100%;
+	height : 0%;
+	text-align : left;
+	transition : 0.3s;
+	background-color : #000;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+#settingslinks {
+	position : relative;
+	float : left;
+	width : 20%;
+	height : 20%;
+	top : 0px;
+}
+
+#settingslinks:a {
+float : left;
+}
+
+
+
+/* Buttons, buttons and more buttons */
+#login {
+	position : absolute;
+	top : 0px;
+	right : 175px;
+	display : block;
+	width : 80px;
+	height : 38px;
+	margin : 3px;
+	background-color : #DAA520;
+	color : #000;
+	font-weight : bold;
+	text-align : center;
+	border-radius : 7px;
+	border : none;
+}
+
+#register {
+	position : absolute;
+	top : 0px;
+	right : 80px;
+	display : block;
+	width : 80px;
+	height : 38px;
+	margin : 3px;
+	background-color : #DAA520;
+	color : #000;
+	font-weight : bold;
+	text-align : center;
+	border-radius : 7px;
+	border : none;
+}
+
+#logout {
+	position : relative;
+	display : block;
+	width : 100%;
+	height : 30px;
+	text-align : center;
+	margin-top : 3px;
+	margin-bottom : 3px;
+	background-color : #DAA520;
+	color : #000;
+	font-weight : bold;
+	text-align : center;
+}
+
+div .account{
+	width: 100%;
+	height : 50%;
+}
+
+content .main #m {
+	position : relative;
+	display : block;
+	background-color : #000;
+	width : 100%;
+	height : 100%;
+	padding : 10px;
+}
+
+.articles {
+	position : relative;
+	overflow : hidden;
+	display : block;
+	border-radius : 25px;
+	width : 100%;
+	height : auto;
+	border-style : 1px solid #808080;
+	margin-top : 20px;
+	margin-bottom : 20px;
+	background-color : #FFF;
+	color : #000;
+}
+
+/* The News */
+.news {
+	display : block;
+	position : relative;
+	height : 50px;
+	top : 15px;
+	left : 25px;
+}
+.news_breaker {
+	display : block;
+	margin : 5px;
+	width : 80%;
+	margin-left : 10%;
+	margin-right : 10%;
+}
+.news_title {
+}
+.news_text {
+
+}
+div #registration #login #customer {
+	display : block;
+	position : relative;
+	width : 50%;
+	height : auto;
+	margin-left : 25%;
+	margin-right : 25%;
+	margin-top : 10px;
+	margin-bottom : 10px;
+}
+
+form {
+	display : block;
+	position : relative;
+	width : 45%;
+	height : auto;
+	border-radius : 20px;
+	border : 2px solid #808080;
+	background-color : #000;
+	color : #FFF;
+	text-align : left;
+	font-size : 1em;
+	padding-left : 20px;
+	padding-right : 20px;
+	padding-top : 20px;
+	padding-bottom : 20px;
+	font-weight : bold;
+	margin-left : 25%;
+	margin-right : 25%;
+	margin-top : 20px;
+	margin-bottom : 20px;
+}
+
+label {
+	position : relative;
+	display : block;
+	width : 30%;
+	height : 25px;
+	float : left;
+	padding : 3px;
+	margin-right : 75px;
+}
+
+input {
+	position : relative;
+	display : block;
+	width : 30%;
+	height : 25px;
+	font-weight : bold;
+	padding : 3px;
+	border : none;
+	border-radius : 8px;
+	margin-left : 50px;
+}
+
+#submit_input {
+	position : relative;
+	display : block;
+	left : -50px;
+	width : 100px;
+	height : 40px;
+	background-color : #DAA520;
+	border : none;
+	border-radius : 15px;
+	color : #000;
+	font-size : 1.2em;
+}
+
+footer {
+	display : block;
+	background-color : #808080;
+	font : 14px, #FFF;
+	border-top : 3px solid #DAA520;
+	width : 100%;
+	height : 20%;
+	padding : 20px;
+	margin-top: 10px;
+	margin-left : 1px;
+	margin-right : 1px;
+}
+
+li {
+	display : block;
+	position : relative;
+	margin : 1px;
+	margin-left : 5%;
+	margin-right : 5%;
+	padding : 5px;
+	width : 10%;
+	height : 100%;
+	float : left;
+	text-align : left;
+}
+
+a .foot_link {
+	position : relative;
+	display : block;
+	padding : 10px;
+	color : #808080;
+	width : 10%;
+	height : 20px;
+}
+
+a .foot_link:hover {
+	color : #DAA520;
+}
+
+a .foot_link:visited {
+	color : #000;
+}
