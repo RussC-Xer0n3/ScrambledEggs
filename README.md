@@ -1,2 +1,3 @@
 # ScrambledEggs
- Some Web code
+A brief look at enhanced security via data and method storage
+
