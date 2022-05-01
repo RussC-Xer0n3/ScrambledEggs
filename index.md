@@ -2,7 +2,7 @@
 
 ##  A website to write and test login methods
 
-Herein the project was purel;y designed to look at a method for storing and retreiving login details and working with PHP to do so.
+Herein the project was purely designed to look at a method for storing and retreiving login details and working with PHP to do so.
 
 When we look at the initial registration methods, we can see the validators being used in the logic
 
@@ -130,7 +130,7 @@ What's interesting is, we can store and call the method in a tuple or a column i
 function scramble($pass){\n\t$algo = PASSWORD_DEFAULT;\n\t$eggs = password_hash($pass, $algo);\n\t$pass = $eggs;\n\treturn $pass;\n}\r}
 ```
 
-we would say somethiig like
+we would say something like
 ```
 mysqli.connect($EGGS);
 $pass = "SELECT scrambledeggs FROM EGGS";
