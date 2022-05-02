@@ -1,5 +1,13 @@
+<nav class="w3-container w3-teal w3-center w3-margin-top">
+<br>
+  <a href="https://www.facebook.com/profile.php?id=100075972987666"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/russellclarke821"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://www.pinterest.co.uk/russellclarke821/"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/Developing821"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+  <a href="https://www.linkedin.com/in/russell-clarke-09a1a5238"></a><i class="fa fa-linkedin w3-hover-opacity"></i>
+<br>
+</nav>
 # ScrambledEggs
-
 ##  A website to write and test login methods
 
 Herein the project was purely designed to look at a method for storing and retreiving login details and working with PHP to do so.
